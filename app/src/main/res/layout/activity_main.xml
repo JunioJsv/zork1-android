@@ -8,20 +8,25 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/mZStatusBar"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <TextView
         android:id="@+id/mZOutput"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/mZInput"
+        android:layout_below="@+id/mZStatusBar"
         android:gravity="bottom"
         android:scrollbars="vertical" />
 
-    <EditText
+    <MultiAutoCompleteTextView
         android:id="@+id/mZInput"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_alignParentBottom="true"
-        android:autofillHints=""
-        android:hint="What you want to do?"
+        android:hint="@string/what_you_want_to_do"
         android:inputType="text" />
 
 </RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="commands">
+        <item>move</item>
+        <item>north</item>
+        <item>south</item>
+        <item>east</item>
+        <item>west</item>
+        <item>northeast</item>
+        <item>northwest</item>
+        <item>southeast</item>
+        <item>southwest</item>
+        <item>up</item>
+        <item>down</item>
+        <item>look</item>
+        <item>save</item>
+        <item>restore</item>
+        <item>restart</item>
+        <item>verbose</item>
+        <item>score</item>
+        <item>diagnostic</item>
+        <item>brief</item>
+        <item>superbrief</item>
+        <item>quit</item>
+        <item>climb</item>
+        <item>go</item>
+        <item>enter</item>
+        <item>out</item>
+        <item>jump</item>
+        <item>take</item>
+        <item>take all</item>
+        <item>throw</item>
+        <item>open</item>
+        <item>read</item>
+        <item>drop</item>
+        <item>put</item>
+        <item>turn</item>
+        <item>turn on</item>
+        <item>turn off</item>
+        <item>attack</item>
+        <item>examine</item>
+        <item>inventory</item>
+        <item>eat</item>
+        <item>shout</item>
+        <item>close</item>
+        <item>tie</item>
+        <item>kill self with</item>
+        <item>break</item>
+        <item>kill</item>
+        <item>pray</item>
+        <item>drink</item>
+        <item>smell</item>
+        <item>shout</item>
+        <item>close</item>
+        <item>cut</item>
+        <item>bar</item>
+        <item>listen</item>
+    </array>
+</resources>
